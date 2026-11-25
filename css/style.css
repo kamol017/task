@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 30px 60px;
+  margin: 30px auto;
+}
+
+body {
+  background-color: #F4F6F8;
+}
+
+.tariflar__maintitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1E1E2F;
+  font-family: "Montserrat";
+}
+.tariflar__subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #9AA0A6;
+  font-family: "Montserrat";
+}
+.tariflar__cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.tariflar__card {
+  transition: 0.3s ease;
+}
+.tariflar__card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+}
+.tariflar__card {
+  width: 300px;
+  height: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid;
+}
+.tariflar__card_title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.tariflar__card_price {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #FF6B00;
+  font-family: "Montserrat";
+}
+.tariflar__card_price span {
+  font-size: 14px;
+  color: #9AA0A6;
+  font-family: "Montserrat";
+}
+.tariflar__card_name {
+  text-align: center;
+  font-family: "Montserrat";
+}
+.tariflar__card_time {
+  font-family: "Montserrat";
+}
+.tariflar__card_list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.tariflar__card_item {
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+.tariflar__card_item span {
+  text-decoration: line-through;
+  font-family: "Montserrat";
+}
+.tariflar__card_btn:hover {
+  transition: 0.3s ease;
+}
+.tariflar__card_btn {
+  width: 100%;
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 2px solid #FF6B00;
+  font-family: "Montserrat";
+}
+.tariflar__card--standart {
+  background-color: #1E1E2F;
+  border: 2px solid #FFB800;
+  color: #FFFFFF;
+}
+.tariflar__card--standart .tariflar__card_price {
+  color: #FFB800;
+}
+.tariflar__card--standart .tariflar__card_price span {
+  color: #9AA0A6;
+}
+.tariflar__card--standart .tariflar__card_choose {
+  background-color: #FFB800;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

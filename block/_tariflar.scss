@@ -1,0 +1,124 @@
+.tariflar{
+
+    &__maintitle{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1E1E2F;
+        font-family: "Montserrat";
+    }
+
+    &__subtitle{
+        text-align: center;
+        font-size: 16px;
+        color: #9AA0A6;
+        font-family: "Montserrat";
+    }
+    &__cards{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+    &__card{
+        transition: 0.3s ease;
+
+        &:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            transform: translateY(-8px);
+        }
+
+        width: 300px;
+        height: 360px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+        padding: 32px;
+        border-radius: 16px;
+        border: 1px solid;
+        
+        &_title{
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            font-family: "Montserrat";
+        }
+        &_price{
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF6B00;
+            font-family: "Montserrat";
+            span{
+                font-size: 14px;
+                color: #9AA0A6;
+                font-family: "Montserrat";
+            }
+        }
+        &_name{
+            text-align: center;
+            font-family: "Montserrat";
+        }
+        &_time{
+            font-family: "Montserrat";
+
+        }
+        &_list{
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        &_item{
+            font-size: 16px;
+            font-family: "Montserrat";
+
+            span{
+                text-decoration: line-through;
+                font-family: "Montserrat";
+            }
+        }
+        &_btn{
+
+            &:hover{
+                transition: 0.3s ease;
+            }
+            width: 100%;
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            border: 2px solid #FF6B00;
+            font-family: "Montserrat";
+        }
+        
+
+        &--standart{
+            background-color: #1E1E2F;
+            border: 2px solid #FFB800;
+            color: #FFFFFF;
+
+            .tariflar__card_price{
+                color: #FFB800;
+            }
+            .tariflar__card_price span{
+                color: #9AA0A6;
+            }
+            .tariflar__card_choose{
+                background-color: #FFB800;
+                color: #FFFFFF;
+            }
+
+            span{
+
+            }
+        }
+    }
+}
